@@ -1,3 +1,5 @@
+#pragma once
+
 #include <SFML/Graphics.hpp>
 
 
@@ -18,3 +20,4 @@ public:
         return this->event;
     }
 };
+
