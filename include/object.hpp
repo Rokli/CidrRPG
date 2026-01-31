@@ -12,5 +12,9 @@ public:
     virtual void update(float deltaTime) = 0;
 
     virtual void draw(sf::RenderWindow& window) = 0;
+
+    void set_sprite(sf::Sprite &sprite);
+
+    void set_texture(sf::Texture &texture);
 };
 
