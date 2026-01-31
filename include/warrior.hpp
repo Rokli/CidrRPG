@@ -2,6 +2,6 @@
 
 #include "player.hpp"
 
-class Warrior : public Player{
-    
+class Warrior : public Player{ 
+        
 };
