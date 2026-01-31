@@ -1,20 +1,17 @@
 #ifndef PLAYER_H
 #define PLAYER_H
-
-<<<<<<< HEAD
-class Player{
     
-=======
-#include "object.hhp"
-#include "string"
+#include "object.hpp"
 
 class Player : public Object {
 private:
     unsigned int health;
     std::string name;
 public:
-    unsigned int attack() = 0;
->>>>>>> 0974d30 (ll)
+    virtual unsigned int attack() = 0;
+    virtual void spell() = 0;
+    
+    virtual void setName(std::string name) = 0;
 };
 
 #endif
