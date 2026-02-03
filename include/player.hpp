@@ -6,8 +6,8 @@
 class Player : public Object {
 private:
     unsigned int health;
-    
     std::string name;
+    float speed;
 public:
     virtual unsigned int attack() = 0;
     virtual void spell() = 0;
